@@ -4,7 +4,7 @@
 
 function calcAverageCalories(days) {
   const result = 0;
-  for (const calories of Object.values(days.calories){result += calories;} return result / days.length;
+  for (const sum of Object.values(days.calories){result += sum;} return result / days.length;
 }
 
 console.log(
