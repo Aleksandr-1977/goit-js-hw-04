@@ -7,7 +7,7 @@
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 function isEnoughCapacity(products, containerSize){
   let totalProduct = 0;
-   for(const product of Object.values(products)){totalProduct += product;}{if(totalProduct <= containerSize)}
+   for(const product of Object.values(products)){totalProduct += product;} return totalProduct <= containerSize;
    }  
 
 
