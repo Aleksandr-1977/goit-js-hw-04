@@ -3,8 +3,8 @@
 // У консоль будуть виведені результати її викликів.
 
 function calcAverageCalories(days) {
-  let result = 0;
   if (days.length === 0) return 0;
+  let result = 0;
   for (const sum of days){result += sum.calories;} return result / days.length; 
 }
 
