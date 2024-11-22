@@ -9,11 +9,14 @@
 // Метод getInfo() має повертати рядок формату <Username> has <amount> active hours!, де <Username> — це ім’я профілю, а <amount> — кількість ігрових годин.
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
+const profile = {
+    username: "Jacob",
+  playTime: 300,
 
+getInfo() {return `${username} has ${playTime} active hours!`;},
+changeUsername("Marco"){ return `${newName} has 300 active hours!`;},
+updatePlayTime(20){ return `${username} has ${playTime + hours} active hours!`;},
+};
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
-
-profile.changeUsername("Marco");
 console.log(profile.getInfo()); // "Marco has 300 active hours!"
-
-profile.updatePlayTime(20);
 console.log(profile.getInfo()); // "Marco has 320 active hours!"
